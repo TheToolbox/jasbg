@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "compiled/src/index.js",
+  "types": "compiled/src/index.d.ts",
+  "scripts": {
+    "build": "node node_modules/typescript/bin/tsc",
+    "test": "node node_modules/mocha/bin/mocha compiled/test/"
+  },
+  "dependencies": {},
+  "author": "Jason 'Toolbox' Oettinger <jason@oettinger.email>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.11.7",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1",
+    "typescript": "^3.1.3"
+  }
+}
